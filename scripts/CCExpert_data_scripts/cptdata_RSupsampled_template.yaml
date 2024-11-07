@@ -1,0 +1,78 @@
+  datasets:
+    # >>>>>>>>>>>>>>>>>>>>>>>>>> Natural image <<<<<<<<<<<<<<<<<<<<<<<<<<<
+    # ChangeSim
+    - json_path: "All_anno_json_with_absolute_path/changesim_train_universal.json"
+      sampling_strategy: all
+    - json_path: "All_anno_json_with_absolute_path/changesim_test_universal.json"
+      sampling_strategy: all
+    # CLVER-Change, Each img pair only retains 3 annos.
+    - json_path: "All_anno_json_with_absolute_path/CLEVIR_Change_train_change_universal_random3.json"
+      sampling_strategy: all
+    - json_path: "All_anno_json_with_absolute_path/CLEVIR_Change_val_change_universal_random3.json"
+      sampling_strategy: all
+    - json_path: "All_anno_json_with_absolute_path/CLEVIR_Change_train_nochange_universal_random3.json"
+      sampling_strategy: all
+    - json_path: "All_anno_json_with_absolute_path/CLEVIR_Change_val_nochange_universal_random3.json"
+      sampling_strategy: all
+    # Image-Edit-Request
+    - json_path: "All_anno_json_with_absolute_path/image_edit_request_train_universal.json"
+      sampling_strategy: all
+    - json_path: "All_anno_json_with_absolute_path/image_edit_request_val_universal.json"
+      sampling_strategy: all
+    # Spot-the-diff, 2x
+    - json_path: "All_anno_json_with_absolute_path/spotthediff_train_universal.json"
+      sampling_strategy: all
+    - json_path: "All_anno_json_with_absolute_path/spotthediff_train_universal.json"
+      sampling_strategy: all
+    - json_path: "All_anno_json_with_absolute_path/spotthediff_val_universal.json"
+      sampling_strategy: all
+    - json_path: "All_anno_json_with_absolute_path/spotthediff_val_universal.json"
+      sampling_strategy: all
+    # Stvchrono
+    - json_path: "All_anno_json_with_absolute_path/stvchrono_train_universal.json"
+      sampling_strategy: all
+    - json_path: "All_anno_json_with_absolute_path/stvchrono_test_universal.json"
+      sampling_strategy: all
+    # Vismin, Only a very small part is used in the CCExpert article.
+    - json_path: "All_anno_json_with_absolute_path/Vismin_train_universal.json"
+      sampling_strategy: all
+    # >>>>>>>>>>>>>>>>>>>>>>>>>> RS image <<<<<<<<<<<<<<<<<<<<<<<<<<<
+    # LEVIR-CC 6x
+    - json_path: "All_anno_json_with_absolute_path/LevirCCcaptions_train_universal.json"
+      sampling_strategy: all
+    - json_path: "All_anno_json_with_absolute_path/LevirCCcaptions_train_universal.json"
+      sampling_strategy: all
+    - json_path: "All_anno_json_with_absolute_path/LevirCCcaptions_train_universal.json"
+      sampling_strategy: all
+    - json_path: "All_anno_json_with_absolute_path/LevirCCcaptions_train_universal.json"
+      sampling_strategy: all
+    - json_path: "All_anno_json_with_absolute_path/LevirCCcaptions_train_universal.json"
+      sampling_strategy: all
+    - json_path: "All_anno_json_with_absolute_path/LevirCCcaptions_train_universal.json"
+      sampling_strategy: all
+    # SYSU-CD 3x
+    - json_path: "All_anno_json_with_absolute_path/sysucd_train_universal.json"
+      sampling_strategy: all
+    - json_path: "All_anno_json_with_absolute_path/sysucd_val_universal.json"
+      sampling_strategy: all
+    - json_path: "All_anno_json_with_absolute_path/sysucd_train_universal.json"
+      sampling_strategy: all
+    - json_path: "All_anno_json_with_absolute_path/sysucd_val_universal.json"
+      sampling_strategy: all
+    - json_path: "All_anno_json_with_absolute_path/sysucd_train_universal.json"
+      sampling_strategy: all
+    - json_path: "All_anno_json_with_absolute_path/sysucd_val_universal.json"
+      sampling_strategy: all
+    # SECOND, 3x, Only a very small part is used in the CCExpert article.
+    - json_path: "All_anno_json_with_absolute_path/second_allinone_multi_express_universal_format.json"
+      sampling_strategy: all
+    - json_path: "All_anno_json_with_absolute_path/second_multi_view_universal_format.json"
+      sampling_strategy: all
+    - json_path: "All_anno_json_with_absolute_path/second_allinone_multi_express_universal_format.json"
+      sampling_strategy: all
+    - json_path: "All_anno_json_with_absolute_path/second_multi_view_universal_format.json"
+      sampling_strategy: all
+    - json_path: "All_anno_json_with_absolute_path/second_allinone_multi_express_universal_format.json"
+      sampling_strategy: all
+    - json_path: "All_anno_json_with_absolute_path/second_multi_view_universal_format.json"
+      sampling_strategy: all

@@ -1,0 +1,4 @@
+  datasets:
+    # LEVIR-CC
+    - json_path: "All_anno_json_with_absolute_path/LevirCCcaptions_train_universal.json"
+      sampling_strategy: all
