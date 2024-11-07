@@ -139,7 +139,7 @@ We believe that you have run through the baseline. Here it is a bit more complic
 bash ./scripts/CCExpert_train_scripts/CCExpert_0.5b_3stage_cpt_sft.sh
 
 # Train CCExpert_7b CPT + SFT
-bash ./scripts/CCExpert_train_scripts/CCExpert_7b_3stage_cpt_sft.sh```
+bash ./scripts/CCExpert_train_scripts/CCExpert_7b_3stage_cpt_sft.sh
 ```
 
 ## 4. Model Testing
