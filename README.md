@@ -28,6 +28,7 @@ If you find this project helpful, please give us a star ⭐️, your support is 
 
 ## Update Log
 
+🌟 **2024.11.12** Release the weight, training logs and infer results.
 🌟 **2024.11.07** Release the source code and part of CC-Foundation Dataset.
 
 ## Table of Contents
@@ -39,6 +40,7 @@ If you find this project helpful, please give us a star ⭐️, your support is 
 - [2.Dataset Preparation](#2.-Dataset-Preparation)
 - [3.Model Training](#3.-Model-Training)
 - [4.Model Testing](#4.-Model-Testing)
+- [Model Zoo](#model-zoo)
 - [Common Problems](#Common-Problems)
 - [Acknowledgement](#Acknowledgement)
 - [Citation](#Citation)
