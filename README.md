@@ -93,8 +93,9 @@ Please note that when using these datasets, please follow the licenses of respec
 **Step 1**: Use the `add_sbsolute_path_to_all_json.py` script included in CC-Foundation to generate a subfolder that contains all the json data files that will be used. At the same time, the image path will change from a relative path to an absolute path.
 
 ```shell
-# "{CC-Foundation Local Absolute Path} stores the absolute path for saving this dataset for you."
-python3 ${CC-Foundation Local Absolute Path}/add_sbsolute_path_to_all_json.py ${CC-Foundation Local Absolute Path}
+# "{CC_Foundation_Local_Absolute_Path} stores the absolute path for saving this dataset for you."
+export CC_Foundation_Local_Absolute_Path=/your/local/absolute/path
+python3 ${CC_Foundation_Local_Absolute_Path}/add_sbsolute_path_to_all_json.py ${CC_Foundation_Local_Absolute_Path}
 ```
 
 **Step 2**: [This location](scripts/CCExpert_data_scripts)stores several yaml files, which correspond to CPT data, benchmark training set and test set template respectively. You need to use[scripts/CCExpert_data_scripts/add_CC_Foundation_local_absolute_path_to_yaml.py](scripts/CCExpert_data_scripts/add_CC_Foundation_local_absolute_path_to_yaml.py)to add the absolute path stored by CC-Foundation to these template yaml files to facilitate finding the corresponding json annotation files.
@@ -102,13 +103,13 @@ python3 ${CC-Foundation Local Absolute Path}/add_sbsolute_path_to_all_json.py ${
 ```shell
 python3 ./scripts/CCExpert_data_scripts/add_CC_Foundation_local_absolute_path_to_yaml.py \
     --yaml_file="./scripts/CCExpert_data_scripts/cptdata_RSupsampled_template.yaml" \
-    --base_path="${CC-Foundation Local Absolute Path}"
+    --base_path="${CC_Foundation_Local_Absolute_Path}"
 python3 ./scripts/CCExpert_data_scripts/add_CC_Foundation_local_absolute_path_to_yaml.py \
     --yaml_file="./scripts/CCExpert_data_scripts/benchmark_LEVIR-CC_train_template.yaml" \
-    --base_path="${CC-Foundation Local Absolute Path}"
+    --base_path="${CC_Foundation_Local_Absolute_Path}"
 python3 ./scripts/CCExpert_data_scripts/add_CC_Foundation_local_absolute_path_to_yaml.py \
     --yaml_file="./scripts/CCExpert_data_scripts/benchmark_LEVIR-CC_test_template.yaml" \
-    --base_path="${CC-Foundation Local Absolute Path}"
+    --base_path="${CC_Foundation_Local_Absolute_Path}"
 ```
 </details>
 
@@ -164,6 +165,13 @@ python3 ./scripts/CCExpert_infer_eval_scripts/eval_CCExpert.py \
 # Single-Card Infer, You need to simply modify the path of the script and so on. It is very simple.
 python3 ./scripts/CCExpert_infer_eval_scripts/infer_CCExpert.py
 ```
+
+## Model Zoo
+| Model | BLEU-4 | METEOR | ROUGE<sub>L</sub> | CIDEr-D | S<sub>m</sub><sup>*</sup> | Weight | Log | Infer Results |
+| :---: | :---: | :---: |  :---: | :---: | :---: | :---: | :---: | :---: |
+**CCExpert-0.5b** | 65.42 | 41.33 | 75.93 | 141.19 | 80.99 | [Baidu Disk](https://pan.baidu.com/s/1XUTWog9mToXqNAYk5knQOQ?pwd=cc05) | [80.99](https://raw.githubusercontent.com/Meize0729/storage/refs/heads/main/CCExpert/CCExpert_0.5b_3stage_train.log) | -
+**CCExpert-7b** | 65.49 | 41.82 | 76.55 | 143.32 | 81.80 | [Baidu Disk](https://pan.baidu.com/s/1jLfZ8pirXM_JqRNRo9TGSA?pwd=cc70) | [81.80](https://raw.githubusercontent.com/Meize0729/storage/refs/heads/main/CCExpert/CCExpert_7b_3stage_train.log) | [url](https://raw.githubusercontent.com/Meize0729/storage/refs/heads/main/CCExpert/CCExpert_7b_LEVIR-CC_infer_results.txt)
+
 
 ## Common Problems
 
