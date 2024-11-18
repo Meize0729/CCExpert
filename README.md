@@ -22,7 +22,7 @@
 
 ## Introduction
 
-This repository is the code implementation of the paper [CCExpert: Advancing MLLM Capability in Remote Sensing Change Captioning with Difference-Aware Integration and a Foundational Dataset](), which is based on the [LLaVA-NeXT](https://github.com/LLaVA-VL/LLaVA-NeXT) project.
+This repository is the code implementation of the paper [CCExpert: Advancing MLLM Capability in Remote Sensing Change Captioning with Difference-Aware Integration and a Foundational Dataset](https://arxiv.org/submit/6006511/view), which is based on the [LLaVA-NeXT](https://github.com/LLaVA-VL/LLaVA-NeXT) project.
 
 The current branch has been tested under PyTorch 2.3.0 and CUDA 12.1, supports Python 3.9+, and is compatible with most CUDA versions.
 
