@@ -31,7 +31,9 @@ If you find this project helpful, please give us a star ⭐️, your support is 
 ## Update Log
 
 🌟 **2024.11.18** Release the arXiv version of the paper
+
 🌟 **2024.11.12** Release the weight, training logs and infer results.
+
 🌟 **2024.11.07** Release the source code and part of CC-Foundation Dataset.
 
 ## Table of Contents
