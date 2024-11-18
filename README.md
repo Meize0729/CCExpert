@@ -3,8 +3,10 @@
         CCExpert: Advancing MLLM Capability in Remote Sensing Change Captioning with Difference-Aware Integration and a Foundational Dataset
     </h2>
     <p>
-        Mingze Wang<sup>1†</sup>, Zhiming Wang<sup>1†</sup>, Sheng Xu<sup>1</sup>, and Baochang Zhang<sup>1*</sup><br>
-        <sup>1</sup>Beihang University
+        Mingze Wang<sup>1†</sup>, Zhiming Wang<sup>1†</sup>, Sheng Xu<sup>1</sup>, Yanjing Li<sup>1</sup> and Baochang Zhang<sup>1*</sup><br>
+        <br>
+        <sup>1</sup>Beihang University<br>
+        <sup>†</sup>Equal Contribution, <sup>*</sup>Corresponding Author<br>
     </p>
 </div>
 
@@ -28,6 +30,7 @@ If you find this project helpful, please give us a star ⭐️, your support is 
 
 ## Update Log
 
+🌟 **2024.11.18** Release the arXiv version of the paper
 🌟 **2024.11.12** Release the weight, training logs and infer results.
 🌟 **2024.11.07** Release the source code and part of CC-Foundation Dataset.
 
