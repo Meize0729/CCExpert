@@ -12,7 +12,7 @@
 
 [![GitHub stars](https://badgen.net/github/stars/Meize0729/CCExpert)](https://github.com/Meize0729/CCExpert)
 [![license](https://img.shields.io/badge/license-Apache--2.0-green)](LICENSE)
-<!-- [![arXiv](https://img.shields.io/badge/arXiv-2403.07564-b31b1b.svg)](http://arxiv.org/abs/2403.07564) -->
+[![arXiv](https://img.shields.io/badge/arXiv-2411.11360-b31b1b.svg)](https://arxiv.org/abs/2411.11360)
 
 <div align="center">
   <img src="assets/CCExpert_Overview.png" width="600"/>
@@ -22,7 +22,7 @@
 
 ## Introduction
 
-This repository is the code implementation of the paper [CCExpert: Advancing MLLM Capability in Remote Sensing Change Captioning with Difference-Aware Integration and a Foundational Dataset](https://arxiv.org/submit/6006511/view), which is based on the [LLaVA-NeXT](https://github.com/LLaVA-VL/LLaVA-NeXT) project.
+This repository is the code implementation of the paper [CCExpert: Advancing MLLM Capability in Remote Sensing Change Captioning with Difference-Aware Integration and a Foundational Dataset](https://arxiv.org/abs/2411.11360), which is based on the [LLaVA-NeXT](https://github.com/LLaVA-VL/LLaVA-NeXT) project.
 
 The current branch has been tested under PyTorch 2.3.0 and CUDA 12.1, supports Python 3.9+, and is compatible with most CUDA versions.
 
