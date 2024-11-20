@@ -194,7 +194,15 @@ This project is developed based on the [LLaVA-NeXT](https://github.com/LLaVA-VL/
 If you use the data, code, performance benchmarks and pre-trained weights of this project in your research, please refer to the bibtex below to cite CCExpert.
 
 ```
-~
+@misc{wang2024ccexpert,
+      title={CCExpert: Advancing MLLM Capability in Remote Sensing Change Captioning with Difference-Aware Integration and a Foundational Dataset}, 
+      author={Zhiming Wang and Mingze Wang and Sheng Xu and Yanjing Li and Baochang Zhang},
+      year={2024},
+      eprint={2411.11360},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2411.11360}, 
+}
 ```
 
 ## License
