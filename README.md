@@ -3,10 +3,20 @@
         CCExpert: Advancing MLLM Capability in Remote Sensing Change Captioning with Difference-Aware Integration and a Foundational Dataset
     </h2>
     <p>
-        Mingze Wang<sup>1†</sup>, Zhiming Wang<sup>1†</sup>, Sheng Xu<sup>1</sup>, Yanjing Li<sup>1</sup> and Baochang Zhang<sup>1*</sup><br>
+        Yuanyuan Li<sup>1†</sup>, 
+        Mingze Wang<sup>2†</sup>, 
+        Sheng Xu<sup>3*</sup>, 
+        Yanjing Li<sup>1*</sup>, 
+        Zhiming Wang<sup>1</sup>, 
+        Linlin Yang<sup>3</sup>, 
+        Baochang Zhang<sup>1,4</sup>
+        <br><br>
+        <sup>1</sup>Beihang University (BUAA) &nbsp;&nbsp;
+        <sup>2</sup>ByteDance &nbsp;&nbsp;
+        <sup>3</sup>Communication University of China (CUC) &nbsp;&nbsp;
+        <sup>4</sup>Nanchang Institute of Technology (NIT)
         <br>
-        <sup>1</sup>Beihang University<br>
-        <sup>†</sup>Equal Contribution, <sup>*</sup>Corresponding Author<br>
+        <sup>†</sup>Equal Contribution, <sup>*</sup>Corresponding Author
     </p>
 </div>
 
