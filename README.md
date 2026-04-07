@@ -22,7 +22,6 @@
 
 [![GitHub stars](https://badgen.net/github/stars/Meize0729/CCExpert)](https://github.com/Meize0729/CCExpert)
 [![license](https://img.shields.io/badge/license-Apache--2.0-green)](LICENSE)
-[![arXiv](https://img.shields.io/badge/arXiv-2411.11360-b31b1b.svg)](https://arxiv.org/abs/2411.11360)
 
 <div align="center">
   <img src="assets/CCExpert_Overview.png" width="600"/>
